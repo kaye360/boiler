@@ -1,0 +1,103 @@
+#navbar {
+    position: var(--navbar-position);
+    inset : var(--navbar-inset);
+    padding-inline: var(--padding-x-default);
+
+    background-color: hsl( var(--navbar-bg-clr) );
+    color: hsl( var(--navbar-text-clr) );
+}
+
+.navbar {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display : flex;
+    align-items: center;
+    gap : 1rem;
+}
+
+.logo-link {
+    display : block;
+    text-decoration: none;
+    color : hsl(var(--logo-link-clr));
+    font-size: var(--logo-link-fs);
+}
+
+.logo-link:hover, .logo-link:focus {
+    color : hsl(var(--logo-link-hover-clr));
+}
+
+
+
+
+
+
+.top-nav {
+    overflow: hidden;
+}
+
+.nav-icon-open, .nav-icon-close { cursor: pointer; }
+.nav-icon-close { display : none; }
+
+.nav-links {
+    display : none;
+    align-items: center;
+    gap : 1rem;
+}
+
+@media screen and (min-width : 900px) {
+    .nav-links { display : flex; }
+    .nav-icon-open, .nav-icon-close { display : none }
+}
+
+.nav-link, .nav-link-cta {
+    display : inline-block;
+    padding : var( --nav-link-padding );
+    border-radius: var(--nav-link-border-radius);
+    text-decoration: none;
+    font-weight : var(--nav-link-weight);
+}
+
+.nav-link {
+    background-color : hsla( var(--nav-link-bg-clr) );
+    border : var(--nav-link-border);
+    color : hsl( var(--nav-link-clr) );
+}
+
+.nav-link:hover, .nav-link:focus {
+    background-color : hsl( var(--nav-link-hover-bg-clr) );
+    border : var(--nav-link-hover-border);
+    color : hsl( var(--nav-link-hover-clr) );
+}
+
+.nav-link-active {
+    position: relative;
+}
+
+.nav-link-active::after {
+    content : '';
+    position: absolute;
+    inset : auto 25% 3px 25%;
+    height : 2px;
+    background-color : hsl(var(--nav-link-active-border-clr));
+}
+
+.nav-link-cta {
+    background-color : hsla( var(--nav-link-cta-bg-clr) );
+    border : var(--nav-link-cta-border);
+    color : hsl( var(--nav-link-cta-clr) );
+}
+
+.nav-link-cta:hover, .nav-link-cta:focus {
+    background-color : hsla( var(--nav-link-cta-hover-bg-clr) );
+    border : var(--nav-link-cta-hover-border);
+    color : hsl( var(--nav-link-cta-hover-clr) );
+}
+
+
+
+
+

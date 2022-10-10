@@ -1,0 +1,121 @@
+
+:root {
+
+    /* HSL Colors -- For Transparency use hsla( var(--clr-pri-3), 0.5 ); */
+    --clr-pri-1 : 230, 45%, 98%;
+    --clr-pri-2 : 230, 45%, 90%;
+    --clr-pri-3 : 230, 45%, 80%;
+    --clr-pri-4 : 230, 45%, 65%;
+    --clr-pri-5 : 230, 45%, 50%;
+    --clr-pri-6 : 230, 45%, 25%;
+    --clr-pri-7 : 230, 45%, 10%;
+
+    --clr-sec-1 : 140, 84%, 98%;
+    --clr-sec-2 : 140, 84%, 90%;
+    --clr-sec-3 : 140, 84%, 80%;
+    --clr-sec-4 : 140, 84%, 65%;
+    --clr-sec-5 : 140, 84%, 50%;
+    --clr-sec-6 : 140, 84%, 25%;
+    --clr-sec-7 : 140, 84%, 10%;
+
+    --clr-ter-1 : 0, 84%, 98%;
+    --clr-ter-2 : 0, 84%, 90%;
+    --clr-ter-3 : 0, 84%, 80%;
+    --clr-ter-4 : 0, 84%, 65%;
+    --clr-ter-5 : 0, 84%, 50%;
+    --clr-ter-6 : 0, 84%, 25%;
+    --clr-ter-7 : 0, 84%, 10%;
+
+    /* Font Sizes */    
+    --font-size-1 : clamp(0.9rem, 1.5vw, 1.2rem);
+    --font-size-2 : clamp(1.05rem, 2vw, 1.8rem);
+    --font-size-3 : clamp(1.25rem, 2.7vw, 2.4rem);
+    --font-size-4 : clamp(1.5rem, 4vw, 3rem);
+    --font-size-5 : clamp(1.75rem, 5vw, 3.5rem);
+    --font-size-6 : clamp(2rem, 6vw, 4rem);
+    --font-size-7 : clamp(2.25rem, 7vw, 5rem);
+
+    /* Global/Default Elements */
+    --link-clr : var(--clr-ter-4);
+    --link-hover-clr : var(--clr-pri-3);
+
+    /* Nav Elements */
+    --navbar-bg-clr : var(--clr-pri-7);
+    --navbar-text-clr : var(--clr-pri-2);
+    
+    --logo-link-clr : var(--clr-pri-2);
+    --logo-link-hover-clr : var(--clr-sec-3);
+    --logo-link-fs : var(--font-size-2);
+
+    --nav-link-padding : 0.3rem 0.6rem;
+    --nav-link-weight : 600;
+    --nav-link-border-radius : 0.5rem;
+
+    --nav-link-clr : var(--clr-pri-2);
+    --nav-link-bg-clr : 0, 0%, 0%, 0;
+    --nav-link-border : 0;
+
+    --nav-link-hover-clr : var(--clr-sec-3);
+    --nav-link-hover-bg-clr : 0, 0%, 0%, 0;
+    --nav-link-hover-border : 0;
+
+    --nav-link-active-border-clr : var(--clr-sec-3);
+
+    --nav-link-cta-clr : var(--clr-pri-6);
+    --nav-link-cta-bg-clr : var(--clr-sec-3);
+    --nav-link-cta-border : 0;
+
+    --nav-link-cta-hover-clr : var(--clr-pri-7);
+    --nav-link-cta-hover-bg-clr : var(--clr-pri-4);
+    --nav-link-cta-hover-border : 0;
+
+
+    /* Hero Elements */
+
+    --hero-bg-clr : var(--clr-pri-7);
+    --hero-text-clr : var(--clr-pri-2);
+
+    --hero-headline-fs : var(--font-size-4);
+    --hero-sub-headline-fs : var(--font-size-2);
+
+    --hero-cta-primary-bg-clr : var(--clr-sec-3);
+    --hero-cta-primary-clr : var(--clr-pri-7);
+    --hero-cta-primary-border : 1px solid hsl(var(--clr-sec-3));
+
+    --hero-cta-primary-hover-bg-clr : var(--clr-ter-3);
+    --hero-cta-primary-hover-clr : var(--clr-pri-7);
+    --hero-cta-primary-hover-border : 1px solid hsl(var(--clr-ter-3));
+    
+    --hero-cta-secondary-bg-clr : transparent;
+    --hero-cta-secondary-clr : var(--clr-sec-3);
+    --hero-cta-secondary-border : 1px solid hsl(var(--clr-sec-3));
+    
+    --hero-cta-secondary-hover-bg-clr : transparent;
+    --hero-cta-secondary-hover-clr : var(--clr-ter-3);
+    --hero-cta-secondary-hover-border : 1px solid hsl(var(--clr-ter-3));
+
+    /* Margin/Padding defaults */
+    --padding-x-default : 2vw;
+    --padding-y-default : 3rem;
+
+    /* Max Container Widths */
+    --width-ex-small : 750px;
+    --width-small : 900px;
+    --width-default : 1300px;
+    --width-large : 1600px;
+
+    /* Navbar Elements */
+    --navbar-position : relative;
+    --navbar-inset : auto;
+    --navbar-scroll-padding : 100px 0 0 0;
+
+    /* Section Themes ***Style only, no layout */
+    --mid-contrast-bg-clr : var(--clr-pri-2);
+    --mid-contrast-clr : var(--clr-pri-6);
+    --mid-contrast-link-clr : var(--clr-ter-4);
+
+    --high-contrast-bg-clr : var(--clr-pri-6);
+    --high-contrast-clr : var(--clr-pri-2);
+    --high-contrast-link-clr : var(--clr-ter-4);
+
+}

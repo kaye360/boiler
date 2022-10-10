@@ -1,0 +1,70 @@
+*, *::before, *::after {
+    margin : 0;
+    padding : 0;
+    /* outline : 1px solid gold; */
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: var(--navbar-scroll-padding);
+}
+
+body {
+    font-family: Inter;
+}
+
+img, svg { 
+    max-width: 100%;
+}
+
+#skip {
+    position: absolute;
+    inset : 0 0 auto 0;
+    z-index : 99999;
+    padding : 1rem;
+    transform: translateY(-200%);
+
+    background-color : hsl( var(--clr-pri-7) );
+    text-align: center;
+    text-decoration: none;
+    color : hsl( var(--clr-pri-2) );
+
+    transition : all 300ms ease-in-out;
+}
+
+#skip:focus {
+    transform: translateY(0);
+}
+
+ul {
+    padding-left : 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+main :where(h2, h3, h4, h5, h6, p, ul, blockquote) {
+    margin-bottom : 1.6rem;
+}
+
+section {
+    padding-inline: var(--padding-x-default);
+    /* padding-block: var(--padding-y-default); */
+}
+
+p {
+    line-height: 1.7rem;
+}
+
+a {
+    color : hsl( var(--link-clr) );
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color : hsl( var(--link-hover-clr) );
+}
