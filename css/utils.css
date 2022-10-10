@@ -127,7 +127,7 @@
 .gap7 { gap: 7rem; }
 
 
-/* Themes */
+/* Section Color Themes */
 
 .mid-contrast-theme {
     background-color: hsl( var(--mid-contrast-bg-clr) );

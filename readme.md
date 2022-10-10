@@ -1,3 +1,24 @@
+Instead of creating new markup from scratch every time I make a website, I've created a boilerplate website that comes with many features out of the box. Feel free to use the whole thing or just parts!
+
+Features:
+- Responsive
+- Mobile Nav
+- Utility Classes
+- CSS Config file
+- Ready to use Hero, Column, Navbar, etc blocks
+
+Working Demo:
+https://joshsboiler.netlify.app/
+
+
+How to use Colors/HSL
+- All colors use HSL
+- All custom properties use the formate of #, #%, $%
+- When use in css, it is called as hsl( var(--custom-prop) )
+- This is so you can easily use transparency, for example 0.3 transparency:
+    backgroud-color : hsla( var(--custom-prop), 0.3 )
+
+---
 
 UTILITY CLASSES
 Use Config file to set generic styles/fonts
@@ -11,8 +32,8 @@ COLUMN STYLES
 .gap0 - .gap7 
 
 
-COLOUR THEMES
-base
+SECTION COLOUR THEMES
+base colours
 .mid-contrast-theme
 .high-contrast-theme
 
