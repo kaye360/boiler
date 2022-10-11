@@ -1,0 +1,37 @@
+
+footer {
+    padding-block : var(--padding-y-default);
+    padding-inline : var(--padding-x-default);
+    background-color: hsl( var(--clr-pri-7) );
+    color : hsl( var(--clr-pri-1) );
+    font-size : var(--font-size-1);
+}
+
+footer a {
+    color : hsl( var(--clr-pri-2), 0.7 )
+}
+
+footer a:hover, footer a:focus {
+    color : hsl( var(--clr-ter-2), 1 )
+}
+
+footer h3 {
+    margin-bottom: 1.7rem;
+}
+
+footer li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-logo-link {
+    display : flex;
+    gap : 1rem;
+    align-items: center;
+    margin-bottom : 1rem;
+    color : hsl( var(--clr-pri-1) )
+}
+
+.footer-site-title {
+    font-size: var(--font-size-2);
+    font-weight: 600;
+}

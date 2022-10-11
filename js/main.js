@@ -17,5 +17,5 @@ navIconClose.addEventListener('click', function handler() {
     setTimeout( () => {
         topNav.classList.remove('mobile-nav')
         topNav.classList.remove('mobile-nav-closing')
-    }, 500)
+    }, 250)
 })

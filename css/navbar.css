@@ -37,19 +37,26 @@
 
 .top-nav {
     overflow: hidden;
+    display : flex;
+}
+
+button.nav-icon {
+    border : 0;
+    outline : 0;
+    background: transparent;
 }
 
 .nav-icon-open, .nav-icon-close { cursor: pointer; }
 .nav-icon-close { display : none; }
 
-.nav-links {
+.nav-links, .nav-socials {
     display : none;
     align-items: center;
     gap : 1rem;
 }
 
 @media screen and (min-width : 900px) {
-    .nav-links { display : flex; }
+    .nav-links, .nav-socials { display : flex; }
     .nav-icon-open, .nav-icon-close { display : none }
 }
 
