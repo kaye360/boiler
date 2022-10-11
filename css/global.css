@@ -49,6 +49,7 @@ ul {
 
 nav ul {
     list-style-type: none;
+    margin : 0;
 }
 
 main :where(h2, h3, h4, h5, h6, p, ul, blockquote) {
@@ -77,18 +78,18 @@ a:hover, a:focus {
 
 
 h1 {
-    font-size: var(--font-size-4);
+    font-size: var(--font-size-3);
     font-weight: 600;
 }
 
 h2 {
-    font-size: var(--font-size-3);
+    font-size: var(--font-size-2);
     font-weight: 600;
 }
 
 h3 {
     font-size: var(--font-size-2);
-    font-weight: 600;
+    font-weight: 100;
 }
 
 h4 {

@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Primary Meta Tags -->
-    <title>Site Title</title>
-    <meta name="title" content="">
-    <meta name="description" content="">
+    <title><?php echo $pageTitle; ?> - Site Title</title>
+    <meta name="title" content="<?php echo $pageTitle; ?>">
+    <meta name="description" content="<?php echo $pageDescription; ?>">
 
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -36,16 +36,14 @@
 </head>
 <body>
 
-
 <a href="#content" id="skip">Skip to content</a>
-
 
 
 <header id="navbar">
 <div class="navbar container">
 
     
-    <a href="index.html" class="logo-link">
+    <a href="index.php" class="logo-link">
         <div class="logo-container">
             
             <div class="logo-img">
@@ -81,11 +79,12 @@
         </button>
             
         <ul class="nav-links">
-            <li><a href="#" class="nav-link nav-link-active">Link</a></li>
-            <li><a href="#" class="nav-link">Link</a></li>
-            <li><a href="#" class="nav-link">Link</a></li>
-            <li><a href="#" class="nav-link">Link</a></li>
-            <li><a href="#" class="nav-link-cta">CTA Link</a></li>
+            <li><a href="index.php" class="nav-link <?php echo ($page == 'home') ? 'nav-link-active' : ''; ?> ">Home</a></li>
+            <li><a href="page.php" class="nav-link <?php echo ($page == 'page') ? 'nav-link-active' : ''; ?> ">Page</a></li>
+            <li><a href="contact.php" class="nav-link <?php echo ($page == 'contact') ? 'nav-link-active' : ''; ?> ">Contact</a></li>
+            <li><a href="#" class="nav-link <?php echo ($page == 'link') ? 'nav-link-active' : ''; ?> ">Link</a></li>
+            <li><a href="#" class="nav-link <?php echo ($page == 'link') ? 'nav-link-active' : ''; ?> ">Link</a></li>
+            <li><a href="#" class="nav-link-cta <?php echo ($page == 'link') ? 'nav-link-active' : ''; ?> ">CTA Link</a></li>
         </ul>
 
         <ul class="nav-socials">

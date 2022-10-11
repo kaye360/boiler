@@ -7,8 +7,6 @@ Features:
 - CSS Config file
 - Ready to use Hero, Column, Navbar, etc blocks
 
-Working Demo:
-https://joshsboiler.netlify.app/
 
 
 How to use Colors/HSL
@@ -29,7 +27,7 @@ COLUMN STYLES
 .even-columns-3 -> 3 evenly sized columns, collapse to 1 
 .even-columns-4 -> 4 evenly sized columns, collapse to 2 then 1
 
-.gap0 - .gap7 
+.gap-0 - .gap-7 
 
 
 SECTION COLOUR THEMES

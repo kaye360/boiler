@@ -1,0 +1,49 @@
+.contact-form {
+
+}
+
+.contact-form label {
+    display : block;
+    margin-bottom : 2rem;
+}
+
+.contact-form :where(input[type=text], input[type=email], input[type=tel], select, textarea) {
+    display : block;
+    border : 2px solid hsl( var(--clr-pri-5) );
+    width : 100%;
+    max-width: 500px;
+}
+
+.contact-form input:focus, select:focus, textarea:focus {
+    outline-color: hsl( var(--clr-sec-5) );
+}
+
+.contact-form input, select, textarea {
+    padding : 0.5rem;
+    margin-top : 0.5rem;
+    font-size: var(--font-size-1);
+}
+
+.contact-form option, .contact-form input[type=checkbox] {
+    margin-left : 1rem;
+}
+
+.contact-form textarea {
+    resize: none;
+    height : 10rem;
+}
+
+.contact-form input[type=submit] {
+    padding : 0.5rem 1rem;
+    background-color: hsl( var(--clr-pri-5) );
+    border-color : hsl( var(--clr-pri-5) );
+    color : hsl( var(--clr-pri-1) );
+    cursor : pointer;
+}
+
+.contact-form input[type=submit]:hover,
+.contact-form input[type=submit]:focus {
+    background-color: hsl( var(--clr-sec-5) );
+    border-color: hsl( var(--clr-sec-5) );
+    color: hsl( var(--clr-sec-1) );
+}

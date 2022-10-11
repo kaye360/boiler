@@ -2,7 +2,7 @@
 :root {
 
     /* HSL Colors -- For Transparency use hsla( var(--clr-pri-3), 0.5 ); */
-    --clr-pri-1 : 200, 45%, 98%;
+    --clr-pri-1 : 200, 45%, 95%;
     --clr-pri-2 : 200, 45%, 90%;
     --clr-pri-3 : 200, 45%, 80%;
     --clr-pri-4 : 200, 45%, 65%;

@@ -1,6 +1,9 @@
 <?php 
 
 $page = 'home';
+$pageTitle = 'Home';
+$pageDescription = 'Home page Description';
+
 
 include('./php/header.php');
 

@@ -38,6 +38,7 @@
 .top-nav {
     overflow: hidden;
     display : flex;
+    align-items: center;
 }
 
 button.nav-icon {
