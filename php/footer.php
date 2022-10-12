@@ -6,7 +6,7 @@
 
 <footer>
 
-    <div class="container even-columns-4 columns-divider gap-3 pxd pyd">
+    <div class="container even-columns-4 gap-3 pxd pyd">
 
         <div class="footer-logo">
             <a href="#" class="footer-logo-link">
@@ -48,15 +48,14 @@
             </ul>
         </div>
 
-        <div class="footer-socials-links">
+        <nav>
             <h3>Social</h3>
-            <ul>
-                <li><a href="#">FB</a></li>
-                <li><a href="#">IG</a></li>
-                <li><a href="#">TW</a></li>
-                <li><a href="#">TK</a></li>
+            <ul class="footer-socials">
+                <li><a href="#" class="nav-social-link"><img src="./img/social-icons/facebook.svg"></a></li>
+                <li><a href="#" class="nav-social-link"><img src="./img/social-icons/instagram.svg"></a></li>
+                <li><a href="#" class="nav-social-link"><img src="./img/social-icons/tiktok.svg"></a></li>
             </ul>
-        </div>
+        </nav>
 
     </div>
 

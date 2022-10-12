@@ -55,7 +55,7 @@
     --nav-link-weight : 600;
     --nav-link-border-radius : 0.5rem;
 
-    --nav-link-clr : var(--clr-pri-2);
+    --nav-link-clr : 0, 0%, 100%;
     --nav-link-bg-clr : 0, 0%, 0%, 0;
     --nav-link-border : 0;
 
@@ -72,7 +72,6 @@
     --nav-link-cta-hover-clr : var(--clr-pri-7);
     --nav-link-cta-hover-bg-clr : var(--clr-pri-4);
     --nav-link-cta-hover-border : 0;
-
 
     /* Hero Elements */
 
@@ -115,7 +114,7 @@
 
     /* Section Themes ***Style only, no layout */
     --mid-contrast-bg-clr : var(--clr-pri-2);
-    --mid-contrast-clr : var(--clr-pri-6);
+    --mid-contrast-clr : #000;
     --mid-contrast-link-clr : var(--clr-ter-4);
 
     --high-contrast-bg-clr : var(--clr-pri-6);

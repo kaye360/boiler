@@ -9,10 +9,8 @@ include('./php/header.php');
 ?>
 
 
-<section class="page-header">
-    <div class="container text-center">
-        <h1>Contact Us</h1>
-    </div>
+<section class="page-header text-center">
+    <h1>Contact Us</h1>
 </section>
 
 <section class="container-ex-sm pyd">

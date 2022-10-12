@@ -15,15 +15,18 @@
     inset : 0 0 0 10vw;
     z-index : 100;
     height : 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
 
     display : flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    justify-items: end;
     align-items: end;
     gap : 2rem;
 
     padding-inline : var(--padding-x-default);
-    padding-block : var(--padding-y-default);
+    padding-top : 6rem;
 
     background-color: hsla(var(--navbar-bg-clr), 0.95);
     font-size: var(--font-size-5);
@@ -32,13 +35,46 @@
 }
 
 
+.mobile-nav .nav-links-submenu {
+    padding-right : 0.5rem;
+}
+
+
+.mobile-nav .nav-links li {
+    margin-block : 0.5rem;
+    text-align: right;
+}
+
+.mobile-nav .nav-sub-link {
+    color : hsl( var(--nav-link-clr) );
+    font-size: var(--font-size-2);
+}
+
 .mobile-nav .nav-socials {
     display : flex;
     position: fixed;
+    top : var(--padding-y-default);
+    left : calc( var(--padding-x-default) + 1rem );
     z-index : 110;
-    bottom : 1rem;
-    right : 1rem;
 }
+
+
+.mobile-nav .nav-link-active::after {
+    inset : auto 25% -6px 25%;
+}
+
+
+
+
+
+.mobile-nav .nav-links-submenu {
+    display : none;
+}
+
+.mobile-nav .nav-links-submenu-isopen {
+    display : block;
+}
+
 
 
 .mobile-nav .nav-links li, 

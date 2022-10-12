@@ -80,18 +80,25 @@
             
         <ul class="nav-links">
             <li><a href="index.php" class="nav-link <?php echo ($page == 'home') ? 'nav-link-active' : ''; ?> ">Home</a></li>
-            <li><a href="page.php" class="nav-link <?php echo ($page == 'page') ? 'nav-link-active' : ''; ?> ">Page</a></li>
+            <li><a href="about.php" class="nav-link <?php echo ($page == 'about') ? 'nav-link-active' : ''; ?> ">About</a></li>
             <li><a href="contact.php" class="nav-link <?php echo ($page == 'contact') ? 'nav-link-active' : ''; ?> ">Contact</a></li>
-            <li><a href="#" class="nav-link <?php echo ($page == 'link') ? 'nav-link-active' : ''; ?> ">Link</a></li>
-            <li><a href="#" class="nav-link <?php echo ($page == 'link') ? 'nav-link-active' : ''; ?> ">Link</a></li>
+            <li>
+                <a href="#" class="nav-link nav-dropdown-link <?php echo ($page == 'link') ? 'nav-link-active' : ''; ?> ">More</a>
+                <ul class="nav-links-submenu">
+                    <li><a href="#" class="nav-sub-link">Link</a></li>
+                    <li><a href="#" class="nav-sub-link">Link Link</a></li>
+                    <li><a href="#" class="nav-sub-link">Link</a></li>
+                    <li><a href="#" class="nav-sub-link">Link Link</a></li>
+                    <li><a href="#" class="nav-sub-link">Link</a></li>
+                </ul>
+            </li>
             <li><a href="#" class="nav-link-cta <?php echo ($page == 'link') ? 'nav-link-active' : ''; ?> ">CTA Link</a></li>
         </ul>
 
         <ul class="nav-socials">
-            <li><a href="#" class="nav-social-link">FB</a></li>
-            <li><a href="#" class="nav-social-link">IG</a></li>
-            <li><a href="#" class="nav-social-link">YW</a></li>
-            <li><a href="#" class="nav-social-link">TK</a></li>
+            <li><a href="#" class="nav-social-link"><img src="./img/social-icons/facebook.svg"></a></li>
+            <li><a href="#" class="nav-social-link"><img src="./img/social-icons/instagram.svg"></a></li>
+            <li><a href="#" class="nav-social-link"><img src="./img/social-icons/tiktok.svg"></a></li>
         </ul>
 
     </nav>

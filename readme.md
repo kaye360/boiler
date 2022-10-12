@@ -67,3 +67,8 @@ Use Config file to set generic styles/fonts
 
 ### IMAGE STYLES
 - .cover-image -> Image full height, object-fit : cover
+
+
+#### TODO
+- add phone/email to navbar
+- back to top

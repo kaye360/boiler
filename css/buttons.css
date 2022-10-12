@@ -1,0 +1,87 @@
+
+.btn {
+    display : inline-block;
+    padding : 0.5rem 1rem;
+    outline : 1px solid transparent;
+    border : 1px solid transparent;
+    background : transparent;
+    font-size : var(--font-size-1);
+    font-weight: 600;
+    cursor : pointer;
+    transition: all 150ms ease-in-out;
+}
+
+
+
+
+.btn-bg-pri {
+    background-color: hsl( var(--clr-pri-6) );
+    border-color: hsl( var(--clr-pri-6) );
+    color : hsl( var(--clr-pri-1) )
+}
+
+.btn-bdr-pri {
+    border-color : hsl( var(--clr-pri-6) );
+    color : hsl( var(--clr-pri-6) );
+}
+
+.btn-bg-pri:hover,
+.btn-bg-pri:focus,
+.btn-bdr-pri:hover,
+.btn-bdr-pri:focus {
+    background-color: hsl( var(--clr-pri-2) );
+    border-color: hsl( var(--clr-pri-2) );
+    outline : 1px solid #333;
+    color : hsl( var(--clr-pri-6) )
+}
+
+
+
+
+
+
+.btn-bg-sec {
+    background-color: hsl( var(--clr-sec-3) );
+    border-color: hsl( var(--clr-sec-3) );
+    color : hsl( var(--clr-sec-1) )
+}
+
+.btn-bdr-sec {
+    border-color: hsl( var(--clr-sec-6) );
+    color : hsl( var(--clr-sec-6) )
+}
+
+.btn-bg-sec:hover,
+.btn-bg-sec:focus,
+.btn-bdr-sec:hover,
+.btn-bdr-sec:focus {
+    background-color: hsl( var(--clr-sec-2) );
+    border-color: hsl( var(--clr-sec-2) );
+    outline : 1px solid #333;
+    color : hsl( var(--clr-sec-6) )
+}
+
+
+
+
+.btn-bg-ter {
+    background-color: hsl( var(--clr-ter-6) );
+    border-color: hsl( var(--clr-ter-6) );
+    color : hsl( var(--clr-ter-1) )
+}
+
+.btn-bdr-ter {
+    border-color: hsl( var(--clr-ter-6) );
+    color : hsl( var(--clr-ter-6) )
+}
+
+.btn-bg-ter:hover,
+.btn-bg-ter:focus,
+.btn-bdr-ter:hover,
+.btn-bdr-ter:focus {
+    background-color: hsl( var(--clr-ter-2) );
+    border-color: hsl( var(--clr-ter-2) );
+    outline : 1px solid #333;
+    color : hsl( var(--clr-ter-6) )
+}
+
