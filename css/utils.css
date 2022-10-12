@@ -17,6 +17,22 @@
 .clr-pri-6 { color : hsl( var(--clr-pri-6) ); }
 .clr-pri-7 { color : hsl( var(--clr-pri-7) ); }
 
+.clr-sec-1 { color : hsl( var(--clr-sec-1) ); }
+.clr-sec-2 { color : hsl( var(--clr-sec-2) ); }
+.clr-sec-3 { color : hsl( var(--clr-sec-3) ); }
+.clr-sec-4 { color : hsl( var(--clr-sec-4) ); }
+.clr-sec-5 { color : hsl( var(--clr-sec-5) ); }
+.clr-sec-6 { color : hsl( var(--clr-sec-6) ); }
+.clr-sec-7 { color : hsl( var(--clr-sec-7) ); }
+
+.clr-ter-1 { color : hsl( var(--clr-ter-1) ); }
+.clr-ter-2 { color : hsl( var(--clr-ter-2) ); }
+.clr-ter-3 { color : hsl( var(--clr-ter-3) ); }
+.clr-ter-4 { color : hsl( var(--clr-ter-4) ); }
+.clr-ter-5 { color : hsl( var(--clr-ter-5) ); }
+.clr-ter-6 { color : hsl( var(--clr-ter-6) ); }
+.clr-ter-7 { color : hsl( var(--clr-ter-7) ); }
+
 /* Margin Classes */
 .ml1 { margin-left : 1rem; }
 .ml2 { margin-left : 2rem; }
@@ -142,9 +158,6 @@
 
 .justify-items-center { justify-items: center; }
 .align-items-center { align-items: center; }
-
-
-
 
 .gap-0 { gap: 0rem; }
 .gap-1 { gap: 1rem; }

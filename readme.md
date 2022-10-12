@@ -8,8 +8,14 @@ https://www.joshkaye.ca/projects/boiler/
 - Responsive
 - Mobile Nav
 - Utility Classes
-- CSS Config file
-- Ready to use Hero, Column, Navbar, etc blocks
+- Ready to use:
+  - Hero
+  - Columns
+  - Responsive navbar with dropdown menus
+  - Styled forms and buttons
+- PHP header and footer includes
+- Use CSS Config file to set generic styles/fonts
+- Comes with SVG Social Icons
 
 
 
@@ -22,8 +28,9 @@ https://www.joshkaye.ca/projects/boiler/
 
 ---
 
+
 ### UTILITY CLASSES
-Use Config file to set generic styles/fonts
+These are classes I find commonly reused
 
 
 ### COLUMN STYLES
@@ -31,14 +38,15 @@ Use Config file to set generic styles/fonts
 - .even-columns-3 -> 3 evenly sized columns, collapse to 1 
 - .even-columns-4 -> 4 evenly sized columns, collapse to 2 then 1
 
+#### COLUMN MODIFIERS
 - .gap-0 - .gap-7 
-
+- justify-items-center
+- align-items-center
 
 ### SECTION COLOUR THEMES
 - base colours
 - .mid-contrast-theme
 - .high-contrast-theme
-
 
 ### CONTAINER CLASSES
 - (margin-inline auto, position relative)
@@ -46,32 +54,28 @@ Use Config file to set generic styles/fonts
 - small - .container-sm
 - base - .container
 - large - .container-lg
-
+- full height - .full-height
 
 ### POSITIONING CLASSES
-- margin-left : ml1-ml7
-- margin-right : mr1-mr7
-- margin-block : my1-my7
-- margin-inline : mx1-mx7
+- ml, mr, mt, mb, mx, my (Margin - left, right, top, bottom, inline, block)
 - margin-inline-auto :  mxa
-
-- padding-left : pl1-pl7
-- padding-right : pr1-pr7
-- padding-inline : px1-px7
-- padding-block : px1-px7
+- pl, pr, pt, pb, px, py, pxd, pyd (Padding - left, right, top, bottom, inline, block, inline-default, block-default)
 
 - text-center : horizontal center
-- xycenter : horizontal/vertical center (grid)
-
+- xycenter : horizontal/vertical center (Uses grid)
 
 ### FONT STYLES
-- font size : fs1-fs7
-
+- fs1 to fs7 (7 responsive sizes that grow and shrink with viewport width)
+- clr-pri-1 to clr-pri-7 (7 shades of primary color) 
+- clr-sec-1 to clr-sec-7 (7 shades of secondary color) 
+- clr-ter-1 to clr-ter-7 (7 shades of tertiary color) 
 
 ### IMAGE STYLES
 - .cover-image -> Image full height, object-fit : cover
+- .width-100 -> width : 100%
+- .avatar -> circular image
 
-
-#### TODO
+## TODO
 - add phone/email to navbar
-- back to top
+- back to top button
+- aria
