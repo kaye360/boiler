@@ -108,6 +108,7 @@
     .even-columns-4 {
         display : grid;
         position: relative;
+        align-items: stretch;
     }
     .even-columns-2 { grid-template-columns: repeat(2, 1fr); }
     .even-columns-3 { grid-template-columns: repeat(3, 1fr); }
@@ -161,4 +162,13 @@
 
 .high-contrast-theme a {
     color : hsl( var(--high-contrast-link-clr) );
+}
+
+
+/* Images */
+
+.cover-image {
+    height : 100%;
+    object-fit: cover;
+    opacity: 0.5;
 }
