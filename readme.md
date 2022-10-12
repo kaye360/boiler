@@ -1,6 +1,9 @@
 # BoilerPlate Website
 Instead of creating new markup from scratch every time I make a website, I've created a boilerplate website that comes with many features out of the box. Feel free to use the whole thing or just parts!
 
+## Live Demo:
+https://www.joshkaye.ca/projects/boiler/
+
 ## Features:
 - Responsive
 - Mobile Nav
