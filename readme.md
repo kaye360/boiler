@@ -44,12 +44,12 @@ These are classes I find commonly reused
 - align-items-center
 
 ### SECTION COLOUR THEMES
-- base colours
+- base colours (no class needed)
 - .mid-contrast-theme
 - .high-contrast-theme
 
 ### CONTAINER CLASSES
-- (margin-inline auto, position relative)
+- (All containers have: margin-inline auto, position relative, padding-inline-default)
 - extra small - .container-ex-small
 - small - .container-sm
 - base - .container
@@ -58,7 +58,7 @@ These are classes I find commonly reused
 
 ### POSITIONING CLASSES
 - ml, mr, mt, mb, mx, my (Margin - left, right, top, bottom, inline, block)
-- margin-inline-auto :  mxa
+- mxa (margin-inline-auto)
 - pl, pr, pt, pb, px, py, pxd, pyd (Padding - left, right, top, bottom, inline, block, inline-default, block-default)
 
 - text-center : horizontal center

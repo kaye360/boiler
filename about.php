@@ -62,7 +62,7 @@ include('./php/header.php');
             Opsum dolor sit amet consectetur adipisicing.
         </h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt nam sed et atque. Voluptatum mollitia incidunt exercitationem delectus! Tempore!</p>
-        <ul>
+        <ul class="checkmark">
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, corporis eaque? Fuga placeat error ratione?</li>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, fugit?</li>
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ducimus dolorem voluptatem!</li>
@@ -77,6 +77,19 @@ include('./php/header.php');
 
 </section>
 
+
+
+<section class="even-columns-2 align-items-center gap-4 py7 my1 center-clr-bar">
+    <div>
+        <img src="https://source.unsplash.com/random/300x300?business" class="width-100">
+    </div>
+    <div>
+        <h2>Lorem ipsum <span class="clr-pri-5">dolor sit amet</span>.</h2>
+        <p class="fs2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, doloribus sunt saepe consequatur laudantium vel molestias officiis deleniti reiciendis? Distinctio dolorem minima maiores dolorum! Enim!
+        </p>
+    </div>
+</section>
 
 
 

@@ -189,6 +189,15 @@
     color : hsl( var(--high-contrast-link-clr) );
 }
 
+.center-clr-bar { position: relative; }
+
+.center-clr-bar::before {
+    content: '';
+    position: absolute;
+    inset : 0 20%;
+    z-index: -1;
+    background-color: hsl( var(--clr-ter-2) );
+}
 
 /* Images */
 
@@ -208,4 +217,11 @@
     width : 200px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
+}
+
+
+/* List Items */
+
+ul.checkmark {
+    list-style-image:  url(../img/list-items/checkmark.svg);
 }

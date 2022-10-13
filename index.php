@@ -40,7 +40,8 @@ include('./php/header.php');
     
 
     <section class="text-center pyd">
-        <h1>Heading One</h1>
+        <h1 class="mb3">Heading One</h1>
+        <a href="https://github.com/kaye360/boiler" target="_blank" class="btn btn-bg-pri">View this github repo</a>
     </section>
 
     
@@ -200,6 +201,7 @@ include('./php/header.php');
         </p>
     </div>
     </section>
+
 
 
     <section class="high-contrast-theme py7 pyx">

@@ -80,8 +80,8 @@
             
         <ul class="nav-links">
             <li><a href="index.php" class="nav-link <?php echo ($page == 'home') ? 'nav-link-active' : ''; ?> ">Home</a></li>
+            <li><a href="fonts.php" class="nav-link <?php echo ($page == 'fonts') ? 'nav-link-active' : ''; ?> ">Font Demo</a></li>
             <li><a href="about.php" class="nav-link <?php echo ($page == 'about') ? 'nav-link-active' : ''; ?> ">About</a></li>
-            <li><a href="contact.php" class="nav-link <?php echo ($page == 'contact') ? 'nav-link-active' : ''; ?> ">Contact</a></li>
             <li>
                 <a href="#" class="nav-link nav-dropdown-link <?php echo ($page == 'link') ? 'nav-link-active' : ''; ?> ">More</a>
                 <ul class="nav-links-submenu">
@@ -92,7 +92,7 @@
                     <li><a href="#" class="nav-sub-link">Link</a></li>
                 </ul>
             </li>
-            <li><a href="#" class="nav-link-cta <?php echo ($page == 'link') ? 'nav-link-active' : ''; ?> ">CTA Link</a></li>
+            <li><a href="contact.php" class="nav-link-cta <?php echo ($page == 'contact') ? 'nav-link-active' : ''; ?> ">Contact</a></li>
         </ul>
 
         <ul class="nav-socials">
