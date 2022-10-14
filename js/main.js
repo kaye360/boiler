@@ -32,3 +32,18 @@ navDropdownLinks.forEach(link => {
         link.nextElementSibling.classList.toggle('nav-links-submenu-isopen')
     })
 })
+
+
+
+// Back to top button
+
+const backToTopBtn = document.querySelector('.back-to-top-container')
+
+setInterval( () => {
+    console.log('fire')
+    if (window.scrollY > window.innerHeight * 2) {
+        backToTopBtn.classList.add('back-to-top-container-isOpen')
+    } else {
+        backToTopBtn.classList.remove('back-to-top-container-isOpen')
+    }
+}, 3000)

@@ -39,8 +39,19 @@
 <a href="#content" id="skip">Skip to content</a>
 
 
+
+<div class="back-to-top-container">
+    <div class="back-to-top">
+        <a href="#top" class="back-to-top-link">
+            <img src="./img/back-to-top.svg">
+            Top
+        </a>
+    </div>
+</div>
+
+
 <header id="navbar">
-<div class="navbar container">
+<div id="top" class="navbar container">
 
     
     <a href="index.php" class="logo-link">
