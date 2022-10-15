@@ -46,4 +46,4 @@ setInterval( () => {
     } else {
         backToTopBtn.classList.remove('back-to-top-container-isOpen')
     }
-}, 3000)
+}, 2000)
