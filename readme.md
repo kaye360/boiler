@@ -26,7 +26,6 @@ https://www.joshkaye.ca/projects/boiler/
 - This is so you can easily use transparency, for example 0.3 transparency:
     backgroud-color : hsla( var(--custom-prop), 0.3 )
 
----
 
 
 ### UTILITY CLASSES
