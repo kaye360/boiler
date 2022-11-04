@@ -196,7 +196,7 @@
     position: absolute;
     inset : 0 20%;
     z-index: -1;
-    background-color: hsl( var(--clr-ter-2) );
+    background-color: hsl( var(--clr-ter-1) );
 }
 
 /* Images */
